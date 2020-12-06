@@ -4,7 +4,7 @@ import logo from "../logo.png";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-dark">
-      <a className="navbar-brand ml-5" href="#">
+      <a className="navbar-brand ml-5">
         <img src={logo} style={{ height: "40px" }}></img>
       </a>
       <button
@@ -23,7 +23,7 @@ function Navbar() {
           <li className="nav-item active">
             <a
               className="nav-link text-white text-uppercase ml-5"
-              href="index.html"
+              href="/densityMap"
             >
               Density Map <span className="sr-only">(current)</span>
             </a>
@@ -31,7 +31,7 @@ function Navbar() {
           <li className="nav-item">
             <a
               className="nav-link text-white text-uppercase ml-5"
-              href="map.html"
+              href="/diversityMap"
             >
               Diversity Map
             </a>
