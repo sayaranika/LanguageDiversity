@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.container-fluid {
+  background-color: aqua;
+  height: 90vh;
+}
+
+.mapContainer {
+  height: 90vh;
+}

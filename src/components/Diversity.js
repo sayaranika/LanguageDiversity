@@ -1,9 +1,10 @@
 import React from "react";
+import "../App.css";
 
 function Diversity() {
   return (
     <div>
-      <h1>Diversity Map</h1>
+      <h1>Map</h1>
     </div>
   );
 }
